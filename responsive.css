@@ -1,0 +1,131 @@
+       /*--responsive header--*/
+@media screen and (max-width:768px){
+    header .navbar .navlinks{
+        width: 70%;
+    }
+}
+@media screen and (max-width:576px){
+    header .navbar .navlinks{
+        display: none;
+        height: 200px;
+        margin-top: -15px;
+    }
+    header .navbar .navlinks li{
+        padding: 5px;
+  
+    }
+    header .navbar label{
+        display: block;
+        transition: .5s ease-in;
+     left: 0;
+    }
+    header 
+ #checkbox:checked ~ .navlinks{
+display: block;
+position: absolute;
+margin-left: 80px;
+top: 100px;
+/*background-color: azure;*/
+    }
+    header .navlinks .dropdown{
+      display:none;
+        position:relative;
+        float: right;
+        margin-top: -5px;
+        margin-left: 5%;
+        background-color:#ffffff;
+    }
+    
+}
+
+             /*--responsive home--*/
+
+@media screen and (max-width:576px){
+    #home h1{
+        font-size: 2rem;
+             }
+#home input{
+   height: 50px;
+    width: 80%;
+ padding: 15px;
+margin-top: 70px;
+  }
+ #home button{
+   margin-left:-120px;
+}
+}
+       
+
+             /*--responsive about section--*/
+ @media screen and (max-width:576px){
+    #about{
+    padding: 20px;
+    }
+    #about .aboutus{
+        width: 100%;
+     min-height: 50%;
+     display: flex;
+     flex-direction: column;
+     
+    }
+    #about .aboutus .card{
+        width: 100%;
+  padding:40px 20px;
+      }
+      #about .text h2{
+        font-size: 1.5rem;
+    }
+      #about .text ul{
+    padding:10px 50px;
+       
+    }
+    #about .text button{
+    margin-left: 50px;
+    margin-top: 30px;
+    }
+    #about .aboutus  .card1{
+        width: 100%;
+        display: flex;
+    }
+    #about .aboutus  .card1 .aboutpic1{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+     }
+    
+     #about .aboutus  .card1 .aboutpic1 img{
+        width:100%;
+        }
+    
+         #about .aboutus  .card1 .aboutpic2{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+    gap: 20px;
+    }
+         #about .aboutus  .card1 .aboutpic2 img{
+            width:100%;
+            }
+    
+}
+
+            
+
+          /*--responsive contact section--*/
+ @media screen and (max-width:576px){
+   #contact{
+    padding: 20px;
+   }
+   #contact .contactus{
+    width: 100%;
+min-height: 50%;
+display: flex;
+/*background-color: aqua;*/
+   }
+   #contact .contactus .card{
+    width: 100%;
+  padding:40px 20px;
+
+   }
+}
